@@ -1,0 +1,8 @@
+*.zip
+*.tar
+*.gz
+*.pt
+*.pth
+__pycache__/
+.idea/
+*.pyc
