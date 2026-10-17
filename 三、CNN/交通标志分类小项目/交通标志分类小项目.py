@@ -15,7 +15,7 @@ NUM_CLASSES = 43
 
 print("Using device:", device)
 
-# 1. 数据处理
+# 一、机器学习深度学习基础知识问答. 数据处理
 transform = transforms.Compose([
     transforms.Resize((32, 32)),
     transforms.ToTensor(),

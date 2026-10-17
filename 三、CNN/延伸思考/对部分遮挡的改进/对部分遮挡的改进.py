@@ -17,7 +17,7 @@ NUM_CLASSES = 43
 
 print("Using device:", device)
 
-# 1. 数据处理
+# 一、机器学习深度学习基础知识问答. 数据处理
 class RandomOcclusion:
     def __init__(self, size=8):
         self.size = size
@@ -217,7 +217,7 @@ for epoch in range(EPOCHS):
 
         running_loss += loss.item() * images.size(0)
 
-        _, predicted = torch.max(outputs, 1)
+        _, predicted = torch.max(outputs, 一、机器学习深度学习基础知识问答)
 
         total += labels.size(0)
         correct += (predicted == labels).sum().item()
@@ -247,7 +247,7 @@ for epoch in range(EPOCHS):
 
             test_running_loss += loss.item() * images.size(0)
 
-            _, predicted = torch.max(outputs, 1)
+            _, predicted = torch.max(outputs, 一、机器学习深度学习基础知识问答)
 
             test_total += labels.size(0)
             test_correct += (predicted == labels).sum().item()
@@ -263,7 +263,7 @@ for epoch in range(EPOCHS):
     test_accuracies.append(test_accuracy)
 
     print(
-        f"Epoch [{epoch + 1}/{EPOCHS}] "
+        f"Epoch [{epoch + 一、机器学习深度学习基础知识问答}/{EPOCHS}] "
         f"Train Loss: {train_loss:.4f} "
         f"Train Accuracy: {train_accuracy:.4f} "
         f"Test Loss: {test_loss:.4f} "
@@ -276,8 +276,8 @@ for epoch in range(EPOCHS):
 print("最终测试结果")
 print("==============================")
 
-print(f"Test Loss     : {test_losses[-1]:.4f}")
-print(f"Test Accuracy : {test_accuracies[-1]:.4%}")
+print(f"Test Loss     : {test_losses[-一、机器学习深度学习基础知识问答]:.4f}")
+print(f"Test Accuracy : {test_accuracies[-一、机器学习深度学习基础知识问答]:.4%}")
 """
 model.eval()
 
@@ -317,7 +317,7 @@ print(f"Test Accuracy : {test_accuracy:.4%}")
 
 # 5. 可视化
 
-"""epochs = range(1, EPOCHS + 1)
+"""epochs = range(一、机器学习深度学习基础知识问答, EPOCHS + 一、机器学习深度学习基础知识问答)
 
 # Loss 曲线
 plt.figure(figsize=(8, 5))

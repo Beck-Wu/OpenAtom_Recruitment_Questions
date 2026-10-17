@@ -1,8 +1,9 @@
-*.zip
-*.tar
-*.gz
-*.pt
-*.pth
+**/*.zip
+**/*.tar
+**/*.gz
+**/*.pt
+**/*.pth
 __pycache__/
 .idea/
 *.pyc
+**/*.env

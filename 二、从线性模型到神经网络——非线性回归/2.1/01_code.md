@@ -4,7 +4,7 @@
 
 ```python
 """
-任务 2.1：使用 PyTorch 搭建线性回归模型，拟合 make_friedman1 非线性回归数据
+任务 2.一、机器学习深度学习基础知识问答：使用 PyTorch 搭建线性回归模型，拟合 make_friedman1 非线性回归数据
 """
 
 import numpy as np
@@ -20,7 +20,7 @@ torch.manual_seed(42)
 np.random.seed(42)
 
 # ---------------------------------------------------------------
-# 1. 数据生成
+# 一、机器学习深度学习基础知识问答. 数据生成
 # ---------------------------------------------------------------
 X, y = make_friedman1(n_samples=1500, n_features=10, noise=1.0, random_state=42)
 
